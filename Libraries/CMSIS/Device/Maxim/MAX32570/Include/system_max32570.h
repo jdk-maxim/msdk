@@ -66,7 +66,9 @@ extern "C" {
 
 /* NOTE: IPO was previously HIRC96. */
 #ifndef IPO_FREQ
-#define IPO_FREQ 150000000
+// FIXME(JDK): HACKED for Emulator
+//#define IPO_FREQ 150000000
+#define IPO_FREQ 48000000
 #endif
 
 /* NOTE: IBRO was previously HIRC8M. */
